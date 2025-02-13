@@ -1,0 +1,8 @@
+C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/Hello-Triangle.dir
+C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/dependencies/SDL/CMakeFiles/SDL3-shared.dir
+C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/dependencies/SDL/CMakeFiles/SDL3_test.dir
+C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/dependencies/SDL/CMakeFiles/SDL_uclibc.dir
+C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/dependencies/SDL/CMakeFiles/ALL_BUILD.dir
+C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/dependencies/Vulkan-Hpp/CMakeFiles/ALL_BUILD.dir
