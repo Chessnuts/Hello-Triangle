@@ -24,3 +24,4 @@ target_link_libraries(Hello-Triangle INTERFACE Vulkan::Headers)
 
 # Ensure SDL doesn't redefine main
 target_compile_definitions(Hello-Triangle PRIVATE SDL_MAIN_HANDLED)
+

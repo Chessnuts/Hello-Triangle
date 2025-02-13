@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Windows - 10.0.19045 - AMD64
   -
@@ -14,7 +14,7 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler:  
@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.12.12+1cce77968 for .NET Framework
-      Build started 13/02/2025 7:15:43 PM.
+      Build started 13/02/2025 10:20:53 PM.
       
       Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.50
+      Time Elapsed 00:00:00.63
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -69,7 +69,7 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler:  
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild version 17.12.12+1cce77968 for .NET Framework
-      Build started 13/02/2025 7:15:43 PM.
+      Build started 13/02/2025 10:20:54 PM.
       
       Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.50
+      Time Elapsed 00:00:00.46
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -123,52 +123,53 @@ events:
     backtrace:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-0argm6"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-0argm6"
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-ea5ehc"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-ea5ehc"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-0argm6'
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-ea5ehc'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9bbb3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7fbd6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:15:44 PM.
+        Build started 13/02/2025 10:20:55 PM.
         
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0argm6\\cmTC_9bbb3.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ea5ehc\\cmTC_7fbd6.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_9bbb3.dir\\Debug\\".
+          Creating directory "cmTC_7fbd6.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0argm6\\Debug\\".
-          Creating directory "cmTC_9bbb3.dir\\Debug\\cmTC_9bbb3.tlog\\".
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ea5ehc\\Debug\\".
+          Creating directory "cmTC_7fbd6.dir\\Debug\\cmTC_7fbd6.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_9bbb3.dir\\Debug\\cmTC_9bbb3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_9bbb3.dir\\Debug\\cmTC_9bbb3.tlog\\unsuccessfulbuild".
+          Creating "cmTC_7fbd6.dir\\Debug\\cmTC_7fbd6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7fbd6.dir\\Debug\\cmTC_7fbd6.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9bbb3.dir\\Debug\\\\" /Fd"cmTC_9bbb3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7fbd6.dir\\Debug\\\\" /Fd"cmTC_7fbd6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9bbb3.dir\\Debug\\\\" /Fd"cmTC_9bbb3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7fbd6.dir\\Debug\\\\" /Fd"cmTC_7fbd6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0argm6\\Debug\\cmTC_9bbb3.exe" /INCREMENTAL /ILK:"cmTC_9bbb3.dir\\Debug\\cmTC_9bbb3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-0argm6/Debug/cmTC_9bbb3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-0argm6/Debug/cmTC_9bbb3.lib" /MACHINE:X64  /machine:x64 cmTC_9bbb3.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_9bbb3.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0argm6\\Debug\\cmTC_9bbb3.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ea5ehc\\Debug\\cmTC_7fbd6.exe" /INCREMENTAL /ILK:"cmTC_7fbd6.dir\\Debug\\cmTC_7fbd6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-ea5ehc/Debug/cmTC_7fbd6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-ea5ehc/Debug/cmTC_7fbd6.lib" /MACHINE:X64  /machine:x64 cmTC_7fbd6.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_7fbd6.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ea5ehc\\Debug\\cmTC_7fbd6.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_9bbb3.dir\\Debug\\cmTC_9bbb3.tlog\\unsuccessfulbuild".
-          Touching "cmTC_9bbb3.dir\\Debug\\cmTC_9bbb3.tlog\\cmTC_9bbb3.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0argm6\\cmTC_9bbb3.vcxproj" (default targets).
+          Deleting file "cmTC_7fbd6.dir\\Debug\\cmTC_7fbd6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7fbd6.dir\\Debug\\cmTC_7fbd6.tlog\\cmTC_7fbd6.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ea5ehc\\cmTC_7fbd6.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.48
+        Time Elapsed 00:00:00.43
         
       exitCode: 0
   -
@@ -176,7 +177,7 @@ events:
     backtrace:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -194,7 +195,7 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.42.34436.0
@@ -204,53 +205,54 @@ events:
     backtrace:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-6pxxyr"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-6pxxyr"
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-hd3ryq"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-hd3ryq"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-6pxxyr'
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-hd3ryq'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8def7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c6f14.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:15:45 PM.
+        Build started 13/02/2025 10:20:55 PM.
         
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6pxxyr\\cmTC_8def7.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hd3ryq\\cmTC_c6f14.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_8def7.dir\\Debug\\".
+          Creating directory "cmTC_c6f14.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6pxxyr\\Debug\\".
-          Creating directory "cmTC_8def7.dir\\Debug\\cmTC_8def7.tlog\\".
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hd3ryq\\Debug\\".
+          Creating directory "cmTC_c6f14.dir\\Debug\\cmTC_c6f14.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_8def7.dir\\Debug\\cmTC_8def7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_8def7.dir\\Debug\\cmTC_8def7.tlog\\unsuccessfulbuild".
+          Creating "cmTC_c6f14.dir\\Debug\\cmTC_c6f14.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c6f14.dir\\Debug\\cmTC_c6f14.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8def7.dir\\Debug\\\\" /Fd"cmTC_8def7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c6f14.dir\\Debug\\\\" /Fd"cmTC_c6f14.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8def7.dir\\Debug\\\\" /Fd"cmTC_8def7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c6f14.dir\\Debug\\\\" /Fd"cmTC_c6f14.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6pxxyr\\Debug\\cmTC_8def7.exe" /INCREMENTAL /ILK:"cmTC_8def7.dir\\Debug\\cmTC_8def7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-6pxxyr/Debug/cmTC_8def7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-6pxxyr/Debug/cmTC_8def7.lib" /MACHINE:X64  /machine:x64 cmTC_8def7.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_8def7.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6pxxyr\\Debug\\cmTC_8def7.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hd3ryq\\Debug\\cmTC_c6f14.exe" /INCREMENTAL /ILK:"cmTC_c6f14.dir\\Debug\\cmTC_c6f14.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-hd3ryq/Debug/cmTC_c6f14.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-hd3ryq/Debug/cmTC_c6f14.lib" /MACHINE:X64  /machine:x64 cmTC_c6f14.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c6f14.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hd3ryq\\Debug\\cmTC_c6f14.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_8def7.dir\\Debug\\cmTC_8def7.tlog\\unsuccessfulbuild".
-          Touching "cmTC_8def7.dir\\Debug\\cmTC_8def7.tlog\\cmTC_8def7.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6pxxyr\\cmTC_8def7.vcxproj" (default targets).
+          Deleting file "cmTC_c6f14.dir\\Debug\\cmTC_c6f14.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c6f14.dir\\Debug\\cmTC_c6f14.tlog\\cmTC_c6f14.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hd3ryq\\cmTC_c6f14.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.49
+        Time Elapsed 00:00:00.46
         
       exitCode: 0
   -
@@ -258,7 +260,7 @@ events:
     backtrace:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -276,7 +278,7 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.42.34436.0
@@ -304,38 +306,38 @@ events:
       stdout: |
         Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/dependencies/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5da38.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_95bb6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:22 PM.
+        Build started 13/02/2025 10:21:39 PM.
         
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_5da38.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_95bb6.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_5da38.dir\\Debug\\".
+          Creating directory "cmTC_95bb6.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_5da38.dir\\Debug\\cmTC_5da38.tlog\\".
+          Creating directory "cmTC_95bb6.dir\\Debug\\cmTC_95bb6.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_5da38.dir\\Debug\\cmTC_5da38.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_5da38.dir\\Debug\\cmTC_5da38.tlog\\unsuccessfulbuild".
+          Creating "cmTC_95bb6.dir\\Debug\\cmTC_95bb6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_95bb6.dir\\Debug\\cmTC_95bb6.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5da38.dir\\Debug\\\\" /Fd"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_5da38.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_95bb6.dir\\Debug\\\\" /Fd"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_95bb6.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5da38.dir\\Debug\\\\" /Fd"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_5da38.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_95bb6.dir\\Debug\\\\" /Fd"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_95bb6.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
           SDL_detect_arch.c
         Lib:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_5da38.lib" /NOLOGO /MACHINE:X64  /machine:x64 cmTC_5da38.dir\\Debug\\SDL_detect_arch.obj
-          cmTC_5da38.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_5da38.lib
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_95bb6.lib" /NOLOGO /MACHINE:X64  /machine:x64 cmTC_95bb6.dir\\Debug\\SDL_detect_arch.obj
+          cmTC_95bb6.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_95bb6.lib
         FinalizeBuildStatus:
-          Deleting file "cmTC_5da38.dir\\Debug\\cmTC_5da38.tlog\\unsuccessfulbuild".
-          Touching "cmTC_5da38.dir\\Debug\\cmTC_5da38.tlog\\cmTC_5da38.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_5da38.vcxproj" (default targets).
+          Deleting file "cmTC_95bb6.dir\\Debug\\cmTC_95bb6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_95bb6.dir\\Debug\\cmTC_95bb6.tlog\\cmTC_95bb6.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\dependencies\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_95bb6.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.48
+        Time Elapsed 00:00:00.37
         
       exitCode: 0
   -
@@ -347,8 +349,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_MMX"
     directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-j53dkn"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-j53dkn"
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-4e7zl4"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-4e7zl4"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -358,46 +360,46 @@ events:
       variable: "COMPILER_SUPPORTS_MMX"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-j53dkn'
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-4e7zl4'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_80a16.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_756db.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:23 PM.
+        Build started 13/02/2025 10:21:39 PM.
         
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j53dkn\\cmTC_80a16.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e7zl4\\cmTC_756db.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_80a16.dir\\Debug\\".
+          Creating directory "cmTC_756db.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j53dkn\\Debug\\".
-          Creating directory "cmTC_80a16.dir\\Debug\\cmTC_80a16.tlog\\".
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e7zl4\\Debug\\".
+          Creating directory "cmTC_756db.dir\\Debug\\cmTC_756db.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_80a16.dir\\Debug\\cmTC_80a16.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_80a16.dir\\Debug\\cmTC_80a16.tlog\\unsuccessfulbuild".
+          Creating "cmTC_756db.dir\\Debug\\cmTC_756db.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_756db.dir\\Debug\\cmTC_756db.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80a16.dir\\Debug\\\\" /Fd"cmTC_80a16.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j53dkn\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_756db.dir\\Debug\\\\" /Fd"cmTC_756db.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e7zl4\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80a16.dir\\Debug\\\\" /Fd"cmTC_80a16.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j53dkn\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_756db.dir\\Debug\\\\" /Fd"cmTC_756db.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e7zl4\\src.c"
           src.c
-        C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j53dkn\\src.c(5,27): warning C4013: '_mm_add_pi32' undefined; assuming extern returning int [C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j53dkn\\cmTC_80a16.vcxproj]
-        C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j53dkn\\src.c(5,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j53dkn\\cmTC_80a16.vcxproj]
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j53dkn\\cmTC_80a16.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e7zl4\\src.c(5,27): warning C4013: '_mm_add_pi32' undefined; assuming extern returning int [C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e7zl4\\cmTC_756db.vcxproj]
+        C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e7zl4\\src.c(5,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e7zl4\\cmTC_756db.vcxproj]
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e7zl4\\cmTC_756db.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j53dkn\\cmTC_80a16.vcxproj" (default target) (1) ->
+        "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e7zl4\\cmTC_756db.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j53dkn\\src.c(5,27): warning C4013: '_mm_add_pi32' undefined; assuming extern returning int [C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j53dkn\\cmTC_80a16.vcxproj]
+          C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e7zl4\\src.c(5,27): warning C4013: '_mm_add_pi32' undefined; assuming extern returning int [C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e7zl4\\cmTC_756db.vcxproj]
         
         
-        "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j53dkn\\cmTC_80a16.vcxproj" (default target) (1) ->
+        "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e7zl4\\cmTC_756db.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j53dkn\\src.c(5,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j53dkn\\cmTC_80a16.vcxproj]
+          C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e7zl4\\src.c(5,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e7zl4\\cmTC_756db.vcxproj]
         
             1 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.34
+        Time Elapsed 00:00:00.27
         
       exitCode: 1
   -
@@ -409,8 +411,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE"
     directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-p5mws8"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-p5mws8"
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-taz5vx"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-taz5vx"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -420,40 +422,40 @@ events:
       variable: "COMPILER_SUPPORTS_SSE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-p5mws8'
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-taz5vx'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_380ee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0ee60.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:23 PM.
+        Build started 13/02/2025 10:21:40 PM.
         
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5mws8\\cmTC_380ee.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-taz5vx\\cmTC_0ee60.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_380ee.dir\\Debug\\".
+          Creating directory "cmTC_0ee60.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5mws8\\Debug\\".
-          Creating directory "cmTC_380ee.dir\\Debug\\cmTC_380ee.tlog\\".
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-taz5vx\\Debug\\".
+          Creating directory "cmTC_0ee60.dir\\Debug\\cmTC_0ee60.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_380ee.dir\\Debug\\cmTC_380ee.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_380ee.dir\\Debug\\cmTC_380ee.tlog\\unsuccessfulbuild".
+          Creating "cmTC_0ee60.dir\\Debug\\cmTC_0ee60.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0ee60.dir\\Debug\\cmTC_0ee60.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_380ee.dir\\Debug\\\\" /Fd"cmTC_380ee.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5mws8\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0ee60.dir\\Debug\\\\" /Fd"cmTC_0ee60.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-taz5vx\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_380ee.dir\\Debug\\\\" /Fd"cmTC_380ee.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5mws8\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0ee60.dir\\Debug\\\\" /Fd"cmTC_0ee60.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-taz5vx\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5mws8\\Debug\\cmTC_380ee.exe" /INCREMENTAL /ILK:"cmTC_380ee.dir\\Debug\\cmTC_380ee.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-p5mws8/Debug/cmTC_380ee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-p5mws8/Debug/cmTC_380ee.lib" /MACHINE:X64  /machine:x64 cmTC_380ee.dir\\Debug\\src.obj
-          cmTC_380ee.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5mws8\\Debug\\cmTC_380ee.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-taz5vx\\Debug\\cmTC_0ee60.exe" /INCREMENTAL /ILK:"cmTC_0ee60.dir\\Debug\\cmTC_0ee60.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-taz5vx/Debug/cmTC_0ee60.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-taz5vx/Debug/cmTC_0ee60.lib" /MACHINE:X64  /machine:x64 cmTC_0ee60.dir\\Debug\\src.obj
+          cmTC_0ee60.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-taz5vx\\Debug\\cmTC_0ee60.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_380ee.dir\\Debug\\cmTC_380ee.tlog\\unsuccessfulbuild".
-          Touching "cmTC_380ee.dir\\Debug\\cmTC_380ee.tlog\\cmTC_380ee.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5mws8\\cmTC_380ee.vcxproj" (default targets).
+          Deleting file "cmTC_0ee60.dir\\Debug\\cmTC_0ee60.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0ee60.dir\\Debug\\cmTC_0ee60.tlog\\cmTC_0ee60.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-taz5vx\\cmTC_0ee60.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.46
+        Time Elapsed 00:00:00.44
         
       exitCode: 0
   -
@@ -465,8 +467,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE2"
     directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-7oogpq"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-7oogpq"
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-h002do"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-h002do"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -476,40 +478,40 @@ events:
       variable: "COMPILER_SUPPORTS_SSE2"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-7oogpq'
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-h002do'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e68eb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_38ba1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:24 PM.
+        Build started 13/02/2025 10:21:40 PM.
         
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oogpq\\cmTC_e68eb.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h002do\\cmTC_38ba1.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_e68eb.dir\\Debug\\".
+          Creating directory "cmTC_38ba1.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oogpq\\Debug\\".
-          Creating directory "cmTC_e68eb.dir\\Debug\\cmTC_e68eb.tlog\\".
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h002do\\Debug\\".
+          Creating directory "cmTC_38ba1.dir\\Debug\\cmTC_38ba1.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_e68eb.dir\\Debug\\cmTC_e68eb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_e68eb.dir\\Debug\\cmTC_e68eb.tlog\\unsuccessfulbuild".
+          Creating "cmTC_38ba1.dir\\Debug\\cmTC_38ba1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_38ba1.dir\\Debug\\cmTC_38ba1.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e68eb.dir\\Debug\\\\" /Fd"cmTC_e68eb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oogpq\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_38ba1.dir\\Debug\\\\" /Fd"cmTC_38ba1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h002do\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e68eb.dir\\Debug\\\\" /Fd"cmTC_e68eb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oogpq\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_38ba1.dir\\Debug\\\\" /Fd"cmTC_38ba1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h002do\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oogpq\\Debug\\cmTC_e68eb.exe" /INCREMENTAL /ILK:"cmTC_e68eb.dir\\Debug\\cmTC_e68eb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-7oogpq/Debug/cmTC_e68eb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-7oogpq/Debug/cmTC_e68eb.lib" /MACHINE:X64  /machine:x64 cmTC_e68eb.dir\\Debug\\src.obj
-          cmTC_e68eb.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oogpq\\Debug\\cmTC_e68eb.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h002do\\Debug\\cmTC_38ba1.exe" /INCREMENTAL /ILK:"cmTC_38ba1.dir\\Debug\\cmTC_38ba1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-h002do/Debug/cmTC_38ba1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-h002do/Debug/cmTC_38ba1.lib" /MACHINE:X64  /machine:x64 cmTC_38ba1.dir\\Debug\\src.obj
+          cmTC_38ba1.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h002do\\Debug\\cmTC_38ba1.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_e68eb.dir\\Debug\\cmTC_e68eb.tlog\\unsuccessfulbuild".
-          Touching "cmTC_e68eb.dir\\Debug\\cmTC_e68eb.tlog\\cmTC_e68eb.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oogpq\\cmTC_e68eb.vcxproj" (default targets).
+          Deleting file "cmTC_38ba1.dir\\Debug\\cmTC_38ba1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_38ba1.dir\\Debug\\cmTC_38ba1.tlog\\cmTC_38ba1.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h002do\\cmTC_38ba1.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.52
+        Time Elapsed 00:00:00.43
         
       exitCode: 0
   -
@@ -521,8 +523,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE3"
     directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-b088j2"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-b088j2"
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-ws749v"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-ws749v"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -532,34 +534,34 @@ events:
       variable: "COMPILER_SUPPORTS_SSE3"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-b088j2'
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-ws749v'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_919d3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_de1f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:25 PM.
+        Build started 13/02/2025 10:21:41 PM.
         
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b088j2\\cmTC_919d3.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ws749v\\cmTC_de1f5.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_919d3.dir\\Debug\\".
+          Creating directory "cmTC_de1f5.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b088j2\\Debug\\".
-          Creating directory "cmTC_919d3.dir\\Debug\\cmTC_919d3.tlog\\".
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ws749v\\Debug\\".
+          Creating directory "cmTC_de1f5.dir\\Debug\\cmTC_de1f5.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_919d3.dir\\Debug\\cmTC_919d3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_919d3.dir\\Debug\\cmTC_919d3.tlog\\unsuccessfulbuild".
+          Creating "cmTC_de1f5.dir\\Debug\\cmTC_de1f5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_de1f5.dir\\Debug\\cmTC_de1f5.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_919d3.dir\\Debug\\\\" /Fd"cmTC_919d3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b088j2\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de1f5.dir\\Debug\\\\" /Fd"cmTC_de1f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ws749v\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_919d3.dir\\Debug\\\\" /Fd"cmTC_919d3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b088j2\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de1f5.dir\\Debug\\\\" /Fd"cmTC_de1f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ws749v\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b088j2\\Debug\\cmTC_919d3.exe" /INCREMENTAL /ILK:"cmTC_919d3.dir\\Debug\\cmTC_919d3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-b088j2/Debug/cmTC_919d3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-b088j2/Debug/cmTC_919d3.lib" /MACHINE:X64  /machine:x64 cmTC_919d3.dir\\Debug\\src.obj
-          cmTC_919d3.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b088j2\\Debug\\cmTC_919d3.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ws749v\\Debug\\cmTC_de1f5.exe" /INCREMENTAL /ILK:"cmTC_de1f5.dir\\Debug\\cmTC_de1f5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-ws749v/Debug/cmTC_de1f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-ws749v/Debug/cmTC_de1f5.lib" /MACHINE:X64  /machine:x64 cmTC_de1f5.dir\\Debug\\src.obj
+          cmTC_de1f5.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ws749v\\Debug\\cmTC_de1f5.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_919d3.dir\\Debug\\cmTC_919d3.tlog\\unsuccessfulbuild".
-          Touching "cmTC_919d3.dir\\Debug\\cmTC_919d3.tlog\\cmTC_919d3.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b088j2\\cmTC_919d3.vcxproj" (default targets).
+          Deleting file "cmTC_de1f5.dir\\Debug\\cmTC_de1f5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_de1f5.dir\\Debug\\cmTC_de1f5.tlog\\cmTC_de1f5.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ws749v\\cmTC_de1f5.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -577,8 +579,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE4_1"
     directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-a6ku56"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-a6ku56"
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-y5jdht"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-y5jdht"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -588,34 +590,34 @@ events:
       variable: "COMPILER_SUPPORTS_SSE4_1"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-a6ku56'
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-y5jdht'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_30848.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_90a29.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:25 PM.
+        Build started 13/02/2025 10:21:42 PM.
         
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6ku56\\cmTC_30848.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5jdht\\cmTC_90a29.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_30848.dir\\Debug\\".
+          Creating directory "cmTC_90a29.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6ku56\\Debug\\".
-          Creating directory "cmTC_30848.dir\\Debug\\cmTC_30848.tlog\\".
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5jdht\\Debug\\".
+          Creating directory "cmTC_90a29.dir\\Debug\\cmTC_90a29.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_30848.dir\\Debug\\cmTC_30848.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_30848.dir\\Debug\\cmTC_30848.tlog\\unsuccessfulbuild".
+          Creating "cmTC_90a29.dir\\Debug\\cmTC_90a29.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_90a29.dir\\Debug\\cmTC_90a29.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30848.dir\\Debug\\\\" /Fd"cmTC_30848.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6ku56\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90a29.dir\\Debug\\\\" /Fd"cmTC_90a29.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5jdht\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30848.dir\\Debug\\\\" /Fd"cmTC_30848.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6ku56\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90a29.dir\\Debug\\\\" /Fd"cmTC_90a29.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5jdht\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6ku56\\Debug\\cmTC_30848.exe" /INCREMENTAL /ILK:"cmTC_30848.dir\\Debug\\cmTC_30848.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-a6ku56/Debug/cmTC_30848.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-a6ku56/Debug/cmTC_30848.lib" /MACHINE:X64  /machine:x64 cmTC_30848.dir\\Debug\\src.obj
-          cmTC_30848.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6ku56\\Debug\\cmTC_30848.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5jdht\\Debug\\cmTC_90a29.exe" /INCREMENTAL /ILK:"cmTC_90a29.dir\\Debug\\cmTC_90a29.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-y5jdht/Debug/cmTC_90a29.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-y5jdht/Debug/cmTC_90a29.lib" /MACHINE:X64  /machine:x64 cmTC_90a29.dir\\Debug\\src.obj
+          cmTC_90a29.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5jdht\\Debug\\cmTC_90a29.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_30848.dir\\Debug\\cmTC_30848.tlog\\unsuccessfulbuild".
-          Touching "cmTC_30848.dir\\Debug\\cmTC_30848.tlog\\cmTC_30848.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a6ku56\\cmTC_30848.vcxproj" (default targets).
+          Deleting file "cmTC_90a29.dir\\Debug\\cmTC_90a29.tlog\\unsuccessfulbuild".
+          Touching "cmTC_90a29.dir\\Debug\\cmTC_90a29.tlog\\cmTC_90a29.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5jdht\\cmTC_90a29.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -633,8 +635,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE4_2"
     directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-aank3s"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-aank3s"
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-hhk85t"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-hhk85t"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -644,40 +646,40 @@ events:
       variable: "COMPILER_SUPPORTS_SSE4_2"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-aank3s'
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-hhk85t'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9dd7c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8efc5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:26 PM.
+        Build started 13/02/2025 10:21:42 PM.
         
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aank3s\\cmTC_9dd7c.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhk85t\\cmTC_8efc5.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_9dd7c.dir\\Debug\\".
+          Creating directory "cmTC_8efc5.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aank3s\\Debug\\".
-          Creating directory "cmTC_9dd7c.dir\\Debug\\cmTC_9dd7c.tlog\\".
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhk85t\\Debug\\".
+          Creating directory "cmTC_8efc5.dir\\Debug\\cmTC_8efc5.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_9dd7c.dir\\Debug\\cmTC_9dd7c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_9dd7c.dir\\Debug\\cmTC_9dd7c.tlog\\unsuccessfulbuild".
+          Creating "cmTC_8efc5.dir\\Debug\\cmTC_8efc5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8efc5.dir\\Debug\\cmTC_8efc5.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9dd7c.dir\\Debug\\\\" /Fd"cmTC_9dd7c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aank3s\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8efc5.dir\\Debug\\\\" /Fd"cmTC_8efc5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhk85t\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9dd7c.dir\\Debug\\\\" /Fd"cmTC_9dd7c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aank3s\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8efc5.dir\\Debug\\\\" /Fd"cmTC_8efc5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhk85t\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aank3s\\Debug\\cmTC_9dd7c.exe" /INCREMENTAL /ILK:"cmTC_9dd7c.dir\\Debug\\cmTC_9dd7c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-aank3s/Debug/cmTC_9dd7c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-aank3s/Debug/cmTC_9dd7c.lib" /MACHINE:X64  /machine:x64 cmTC_9dd7c.dir\\Debug\\src.obj
-          cmTC_9dd7c.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aank3s\\Debug\\cmTC_9dd7c.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhk85t\\Debug\\cmTC_8efc5.exe" /INCREMENTAL /ILK:"cmTC_8efc5.dir\\Debug\\cmTC_8efc5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-hhk85t/Debug/cmTC_8efc5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-hhk85t/Debug/cmTC_8efc5.lib" /MACHINE:X64  /machine:x64 cmTC_8efc5.dir\\Debug\\src.obj
+          cmTC_8efc5.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhk85t\\Debug\\cmTC_8efc5.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_9dd7c.dir\\Debug\\cmTC_9dd7c.tlog\\unsuccessfulbuild".
-          Touching "cmTC_9dd7c.dir\\Debug\\cmTC_9dd7c.tlog\\cmTC_9dd7c.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aank3s\\cmTC_9dd7c.vcxproj" (default targets).
+          Deleting file "cmTC_8efc5.dir\\Debug\\cmTC_8efc5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8efc5.dir\\Debug\\cmTC_8efc5.tlog\\cmTC_8efc5.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhk85t\\cmTC_8efc5.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.43
+        Time Elapsed 00:00:00.45
         
       exitCode: 0
   -
@@ -689,8 +691,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_AVX"
     directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-xqz4cb"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-xqz4cb"
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-hruggf"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-hruggf"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -700,34 +702,34 @@ events:
       variable: "COMPILER_SUPPORTS_AVX"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-xqz4cb'
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-hruggf'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_805f9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1bc81.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:27 PM.
+        Build started 13/02/2025 10:21:43 PM.
         
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqz4cb\\cmTC_805f9.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hruggf\\cmTC_1bc81.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_805f9.dir\\Debug\\".
+          Creating directory "cmTC_1bc81.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqz4cb\\Debug\\".
-          Creating directory "cmTC_805f9.dir\\Debug\\cmTC_805f9.tlog\\".
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hruggf\\Debug\\".
+          Creating directory "cmTC_1bc81.dir\\Debug\\cmTC_1bc81.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_805f9.dir\\Debug\\cmTC_805f9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_805f9.dir\\Debug\\cmTC_805f9.tlog\\unsuccessfulbuild".
+          Creating "cmTC_1bc81.dir\\Debug\\cmTC_1bc81.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1bc81.dir\\Debug\\cmTC_1bc81.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_805f9.dir\\Debug\\\\" /Fd"cmTC_805f9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqz4cb\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1bc81.dir\\Debug\\\\" /Fd"cmTC_1bc81.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hruggf\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_805f9.dir\\Debug\\\\" /Fd"cmTC_805f9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqz4cb\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1bc81.dir\\Debug\\\\" /Fd"cmTC_1bc81.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hruggf\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqz4cb\\Debug\\cmTC_805f9.exe" /INCREMENTAL /ILK:"cmTC_805f9.dir\\Debug\\cmTC_805f9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-xqz4cb/Debug/cmTC_805f9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-xqz4cb/Debug/cmTC_805f9.lib" /MACHINE:X64  /machine:x64 cmTC_805f9.dir\\Debug\\src.obj
-          cmTC_805f9.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqz4cb\\Debug\\cmTC_805f9.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hruggf\\Debug\\cmTC_1bc81.exe" /INCREMENTAL /ILK:"cmTC_1bc81.dir\\Debug\\cmTC_1bc81.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-hruggf/Debug/cmTC_1bc81.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-hruggf/Debug/cmTC_1bc81.lib" /MACHINE:X64  /machine:x64 cmTC_1bc81.dir\\Debug\\src.obj
+          cmTC_1bc81.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hruggf\\Debug\\cmTC_1bc81.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_805f9.dir\\Debug\\cmTC_805f9.tlog\\unsuccessfulbuild".
-          Touching "cmTC_805f9.dir\\Debug\\cmTC_805f9.tlog\\cmTC_805f9.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xqz4cb\\cmTC_805f9.vcxproj" (default targets).
+          Deleting file "cmTC_1bc81.dir\\Debug\\cmTC_1bc81.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1bc81.dir\\Debug\\cmTC_1bc81.tlog\\cmTC_1bc81.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hruggf\\cmTC_1bc81.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -745,8 +747,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_AVX2"
     directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-9dz3y0"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-9dz3y0"
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-clll2w"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-clll2w"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -756,201 +758,34 @@ events:
       variable: "COMPILER_SUPPORTS_AVX2"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-9dz3y0'
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-clll2w'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5cadf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_10390.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:27 PM.
+        Build started 13/02/2025 10:21:44 PM.
         
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9dz3y0\\cmTC_5cadf.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clll2w\\cmTC_10390.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_5cadf.dir\\Debug\\".
+          Creating directory "cmTC_10390.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9dz3y0\\Debug\\".
-          Creating directory "cmTC_5cadf.dir\\Debug\\cmTC_5cadf.tlog\\".
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clll2w\\Debug\\".
+          Creating directory "cmTC_10390.dir\\Debug\\cmTC_10390.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_5cadf.dir\\Debug\\cmTC_5cadf.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_5cadf.dir\\Debug\\cmTC_5cadf.tlog\\unsuccessfulbuild".
+          Creating "cmTC_10390.dir\\Debug\\cmTC_10390.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_10390.dir\\Debug\\cmTC_10390.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5cadf.dir\\Debug\\\\" /Fd"cmTC_5cadf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9dz3y0\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10390.dir\\Debug\\\\" /Fd"cmTC_10390.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clll2w\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5cadf.dir\\Debug\\\\" /Fd"cmTC_5cadf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9dz3y0\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10390.dir\\Debug\\\\" /Fd"cmTC_10390.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clll2w\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9dz3y0\\Debug\\cmTC_5cadf.exe" /INCREMENTAL /ILK:"cmTC_5cadf.dir\\Debug\\cmTC_5cadf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-9dz3y0/Debug/cmTC_5cadf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-9dz3y0/Debug/cmTC_5cadf.lib" /MACHINE:X64  /machine:x64 cmTC_5cadf.dir\\Debug\\src.obj
-          cmTC_5cadf.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9dz3y0\\Debug\\cmTC_5cadf.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clll2w\\Debug\\cmTC_10390.exe" /INCREMENTAL /ILK:"cmTC_10390.dir\\Debug\\cmTC_10390.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-clll2w/Debug/cmTC_10390.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-clll2w/Debug/cmTC_10390.lib" /MACHINE:X64  /machine:x64 cmTC_10390.dir\\Debug\\src.obj
+          cmTC_10390.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clll2w\\Debug\\cmTC_10390.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_5cadf.dir\\Debug\\cmTC_5cadf.tlog\\unsuccessfulbuild".
-          Touching "cmTC_5cadf.dir\\Debug\\cmTC_5cadf.tlog\\cmTC_5cadf.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9dz3y0\\cmTC_5cadf.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.44
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "dependencies/SDL/CMakeLists.txt:815 (check_c_source_compiles)"
-    checks:
-      - "Performing Test COMPILER_SUPPORTS_AVX512F"
-    directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-f3uplu"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-f3uplu"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/dependencies/SDL/cmake"
-    buildResult:
-      variable: "COMPILER_SUPPORTS_AVX512F"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-f3uplu'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_90089.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:28 PM.
-        
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3uplu\\cmTC_90089.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_90089.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3uplu\\Debug\\".
-          Creating directory "cmTC_90089.dir\\Debug\\cmTC_90089.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_90089.dir\\Debug\\cmTC_90089.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_90089.dir\\Debug\\cmTC_90089.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90089.dir\\Debug\\\\" /Fd"cmTC_90089.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3uplu\\src.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90089.dir\\Debug\\\\" /Fd"cmTC_90089.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3uplu\\src.c"
-          src.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3uplu\\Debug\\cmTC_90089.exe" /INCREMENTAL /ILK:"cmTC_90089.dir\\Debug\\cmTC_90089.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-f3uplu/Debug/cmTC_90089.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-f3uplu/Debug/cmTC_90089.lib" /MACHINE:X64  /machine:x64 cmTC_90089.dir\\Debug\\src.obj
-          cmTC_90089.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3uplu\\Debug\\cmTC_90089.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_90089.dir\\Debug\\cmTC_90089.tlog\\unsuccessfulbuild".
-          Touching "cmTC_90089.dir\\Debug\\cmTC_90089.tlog\\cmTC_90089.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f3uplu\\cmTC_90089.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.44
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "dependencies/SDL/CMakeLists.txt:958 (check_include_file)"
-    checks:
-      - "Looking for malloc.h"
-    directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-dv9bf7"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-dv9bf7"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/dependencies/SDL/cmake"
-    buildResult:
-      variable: "HAVE_MALLOC_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-dv9bf7'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_01b88.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:28 PM.
-        
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dv9bf7\\cmTC_01b88.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_01b88.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dv9bf7\\Debug\\".
-          Creating directory "cmTC_01b88.dir\\Debug\\cmTC_01b88.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_01b88.dir\\Debug\\cmTC_01b88.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_01b88.dir\\Debug\\cmTC_01b88.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_01b88.dir\\Debug\\\\" /Fd"cmTC_01b88.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dv9bf7\\CheckIncludeFile.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_01b88.dir\\Debug\\\\" /Fd"cmTC_01b88.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dv9bf7\\CheckIncludeFile.c"
-          CheckIncludeFile.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dv9bf7\\Debug\\cmTC_01b88.exe" /INCREMENTAL /ILK:"cmTC_01b88.dir\\Debug\\cmTC_01b88.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-dv9bf7/Debug/cmTC_01b88.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-dv9bf7/Debug/cmTC_01b88.lib" /MACHINE:X64  /machine:x64 cmTC_01b88.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_01b88.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dv9bf7\\Debug\\cmTC_01b88.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_01b88.dir\\Debug\\cmTC_01b88.tlog\\unsuccessfulbuild".
-          Touching "cmTC_01b88.dir\\Debug\\cmTC_01b88.tlog\\cmTC_01b88.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dv9bf7\\cmTC_01b88.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.44
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
-      - "dependencies/SDL/CMakeLists.txt:1039 (check_symbol_exists)"
-    checks:
-      - "Looking for _copysign"
-    directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-upv4j5"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-upv4j5"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/dependencies/SDL/cmake"
-    buildResult:
-      variable: "LIBC_HAS__COPYSIGN"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-upv4j5'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_55daf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:29 PM.
-        
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-upv4j5\\cmTC_55daf.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_55daf.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-upv4j5\\Debug\\".
-          Creating directory "cmTC_55daf.dir\\Debug\\cmTC_55daf.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_55daf.dir\\Debug\\cmTC_55daf.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_55daf.dir\\Debug\\cmTC_55daf.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55daf.dir\\Debug\\\\" /Fd"cmTC_55daf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-upv4j5\\CheckSymbolExists.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55daf.dir\\Debug\\\\" /Fd"cmTC_55daf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-upv4j5\\CheckSymbolExists.c"
-          CheckSymbolExists.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-upv4j5\\Debug\\cmTC_55daf.exe" /INCREMENTAL /ILK:"cmTC_55daf.dir\\Debug\\cmTC_55daf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-upv4j5/Debug/cmTC_55daf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-upv4j5/Debug/cmTC_55daf.lib" /MACHINE:X64  /machine:x64 cmTC_55daf.dir\\Debug\\CheckSymbolExists.obj
-          cmTC_55daf.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-upv4j5\\Debug\\cmTC_55daf.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_55daf.dir\\Debug\\cmTC_55daf.tlog\\unsuccessfulbuild".
-          Touching "cmTC_55daf.dir\\Debug\\cmTC_55daf.tlog\\cmTC_55daf.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-upv4j5\\cmTC_55daf.vcxproj" (default targets).
+          Deleting file "cmTC_10390.dir\\Debug\\cmTC_10390.tlog\\unsuccessfulbuild".
+          Touching "cmTC_10390.dir\\Debug\\cmTC_10390.tlog\\cmTC_10390.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clll2w\\cmTC_10390.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -962,14 +797,181 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "dependencies/SDL/CMakeLists.txt:815 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX512F"
+    directories:
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-p8bg64"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-p8bg64"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/dependencies/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX512F"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-p8bg64'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_052e1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 13/02/2025 10:21:44 PM.
+        
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8bg64\\cmTC_052e1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_052e1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8bg64\\Debug\\".
+          Creating directory "cmTC_052e1.dir\\Debug\\cmTC_052e1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_052e1.dir\\Debug\\cmTC_052e1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_052e1.dir\\Debug\\cmTC_052e1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_052e1.dir\\Debug\\\\" /Fd"cmTC_052e1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8bg64\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_052e1.dir\\Debug\\\\" /Fd"cmTC_052e1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8bg64\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8bg64\\Debug\\cmTC_052e1.exe" /INCREMENTAL /ILK:"cmTC_052e1.dir\\Debug\\cmTC_052e1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-p8bg64/Debug/cmTC_052e1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-p8bg64/Debug/cmTC_052e1.lib" /MACHINE:X64  /machine:x64 cmTC_052e1.dir\\Debug\\src.obj
+          cmTC_052e1.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8bg64\\Debug\\cmTC_052e1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_052e1.dir\\Debug\\cmTC_052e1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_052e1.dir\\Debug\\cmTC_052e1.tlog\\cmTC_052e1.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p8bg64\\cmTC_052e1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.47
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "dependencies/SDL/CMakeLists.txt:958 (check_include_file)"
+    checks:
+      - "Looking for malloc.h"
+    directories:
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-xorwks"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-xorwks"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/dependencies/SDL/cmake"
+    buildResult:
+      variable: "HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-xorwks'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c8efd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 13/02/2025 10:21:45 PM.
+        
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xorwks\\cmTC_c8efd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c8efd.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xorwks\\Debug\\".
+          Creating directory "cmTC_c8efd.dir\\Debug\\cmTC_c8efd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c8efd.dir\\Debug\\cmTC_c8efd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c8efd.dir\\Debug\\cmTC_c8efd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c8efd.dir\\Debug\\\\" /Fd"cmTC_c8efd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xorwks\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c8efd.dir\\Debug\\\\" /Fd"cmTC_c8efd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xorwks\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xorwks\\Debug\\cmTC_c8efd.exe" /INCREMENTAL /ILK:"cmTC_c8efd.dir\\Debug\\cmTC_c8efd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-xorwks/Debug/cmTC_c8efd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-xorwks/Debug/cmTC_c8efd.lib" /MACHINE:X64  /machine:x64 cmTC_c8efd.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_c8efd.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xorwks\\Debug\\cmTC_c8efd.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c8efd.dir\\Debug\\cmTC_c8efd.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c8efd.dir\\Debug\\cmTC_c8efd.tlog\\cmTC_c8efd.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xorwks\\cmTC_c8efd.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.47
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "dependencies/SDL/CMakeLists.txt:1039 (check_symbol_exists)"
+    checks:
+      - "Looking for _copysign"
+    directories:
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-x4p896"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-x4p896"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/dependencies/SDL/cmake"
+    buildResult:
+      variable: "LIBC_HAS__COPYSIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-x4p896'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3129d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 13/02/2025 10:21:45 PM.
+        
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4p896\\cmTC_3129d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3129d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4p896\\Debug\\".
+          Creating directory "cmTC_3129d.dir\\Debug\\cmTC_3129d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3129d.dir\\Debug\\cmTC_3129d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3129d.dir\\Debug\\cmTC_3129d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3129d.dir\\Debug\\\\" /Fd"cmTC_3129d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4p896\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3129d.dir\\Debug\\\\" /Fd"cmTC_3129d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4p896\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4p896\\Debug\\cmTC_3129d.exe" /INCREMENTAL /ILK:"cmTC_3129d.dir\\Debug\\cmTC_3129d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-x4p896/Debug/cmTC_3129d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-x4p896/Debug/cmTC_3129d.lib" /MACHINE:X64  /machine:x64 cmTC_3129d.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_3129d.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4p896\\Debug\\cmTC_3129d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_3129d.dir\\Debug\\cmTC_3129d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3129d.dir\\Debug\\cmTC_3129d.tlog\\cmTC_3129d.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4p896\\cmTC_3129d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.47
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
       - "dependencies/SDL/CMakeLists.txt:1039 (check_symbol_exists)"
     checks:
       - "Looking for _fseeki64"
     directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-z55qs9"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-z55qs9"
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-884vqv"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-884vqv"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -979,40 +981,40 @@ events:
       variable: "LIBC_HAS__FSEEKI64"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-z55qs9'
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-884vqv'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4bd92.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3964c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:30 PM.
+        Build started 13/02/2025 10:21:46 PM.
         
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z55qs9\\cmTC_4bd92.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-884vqv\\cmTC_3964c.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_4bd92.dir\\Debug\\".
+          Creating directory "cmTC_3964c.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z55qs9\\Debug\\".
-          Creating directory "cmTC_4bd92.dir\\Debug\\cmTC_4bd92.tlog\\".
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-884vqv\\Debug\\".
+          Creating directory "cmTC_3964c.dir\\Debug\\cmTC_3964c.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_4bd92.dir\\Debug\\cmTC_4bd92.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_4bd92.dir\\Debug\\cmTC_4bd92.tlog\\unsuccessfulbuild".
+          Creating "cmTC_3964c.dir\\Debug\\cmTC_3964c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3964c.dir\\Debug\\cmTC_3964c.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4bd92.dir\\Debug\\\\" /Fd"cmTC_4bd92.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z55qs9\\CheckSymbolExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3964c.dir\\Debug\\\\" /Fd"cmTC_3964c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-884vqv\\CheckSymbolExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4bd92.dir\\Debug\\\\" /Fd"cmTC_4bd92.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z55qs9\\CheckSymbolExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3964c.dir\\Debug\\\\" /Fd"cmTC_3964c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-884vqv\\CheckSymbolExists.c"
           CheckSymbolExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z55qs9\\Debug\\cmTC_4bd92.exe" /INCREMENTAL /ILK:"cmTC_4bd92.dir\\Debug\\cmTC_4bd92.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-z55qs9/Debug/cmTC_4bd92.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-z55qs9/Debug/cmTC_4bd92.lib" /MACHINE:X64  /machine:x64 cmTC_4bd92.dir\\Debug\\CheckSymbolExists.obj
-          cmTC_4bd92.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z55qs9\\Debug\\cmTC_4bd92.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-884vqv\\Debug\\cmTC_3964c.exe" /INCREMENTAL /ILK:"cmTC_3964c.dir\\Debug\\cmTC_3964c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-884vqv/Debug/cmTC_3964c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-884vqv/Debug/cmTC_3964c.lib" /MACHINE:X64  /machine:x64 cmTC_3964c.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_3964c.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-884vqv\\Debug\\cmTC_3964c.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_4bd92.dir\\Debug\\cmTC_4bd92.tlog\\unsuccessfulbuild".
-          Touching "cmTC_4bd92.dir\\Debug\\cmTC_4bd92.tlog\\cmTC_4bd92.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z55qs9\\cmTC_4bd92.vcxproj" (default targets).
+          Deleting file "cmTC_3964c.dir\\Debug\\cmTC_3964c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3964c.dir\\Debug\\cmTC_3964c.tlog\\cmTC_3964c.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-884vqv\\cmTC_3964c.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.45
+        Time Elapsed 00:00:00.46
         
       exitCode: 0
   -
@@ -1024,8 +1026,8 @@ events:
     checks:
       - "Performing Test HAVE_GAMEINPUT_H"
     directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-cylng3"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-cylng3"
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-2k2ny5"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-2k2ny5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -1035,35 +1037,35 @@ events:
       variable: "HAVE_GAMEINPUT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-cylng3'
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-2k2ny5'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bd61a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a3fec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:30 PM.
+        Build started 13/02/2025 10:21:47 PM.
         
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cylng3\\cmTC_bd61a.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2ny5\\cmTC_a3fec.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_bd61a.dir\\Debug\\".
+          Creating directory "cmTC_a3fec.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cylng3\\Debug\\".
-          Creating directory "cmTC_bd61a.dir\\Debug\\cmTC_bd61a.tlog\\".
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2ny5\\Debug\\".
+          Creating directory "cmTC_a3fec.dir\\Debug\\cmTC_a3fec.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_bd61a.dir\\Debug\\cmTC_bd61a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_bd61a.dir\\Debug\\cmTC_bd61a.tlog\\unsuccessfulbuild".
+          Creating "cmTC_a3fec.dir\\Debug\\cmTC_a3fec.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a3fec.dir\\Debug\\cmTC_a3fec.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd61a.dir\\Debug\\\\" /Fd"cmTC_bd61a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cylng3\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3fec.dir\\Debug\\\\" /Fd"cmTC_a3fec.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2ny5\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd61a.dir\\Debug\\\\" /Fd"cmTC_bd61a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cylng3\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3fec.dir\\Debug\\\\" /Fd"cmTC_a3fec.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2ny5\\src.c"
           src.c
-        C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cylng3\\src.c(4,14): error C1083: Cannot open include file: 'gameinput.h': No such file or directory [C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cylng3\\cmTC_bd61a.vcxproj]
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cylng3\\cmTC_bd61a.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2ny5\\src.c(4,14): error C1083: Cannot open include file: 'gameinput.h': No such file or directory [C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2ny5\\cmTC_a3fec.vcxproj]
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2ny5\\cmTC_a3fec.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cylng3\\cmTC_bd61a.vcxproj" (default target) (1) ->
+        "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2ny5\\cmTC_a3fec.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cylng3\\src.c(4,14): error C1083: Cannot open include file: 'gameinput.h': No such file or directory [C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cylng3\\cmTC_bd61a.vcxproj]
+          C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2ny5\\src.c(4,14): error C1083: Cannot open include file: 'gameinput.h': No such file or directory [C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2ny5\\cmTC_a3fec.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -1079,8 +1081,8 @@ events:
     checks:
       - "Looking for dxgi1_6.h"
     directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-8zavd5"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-8zavd5"
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-zur03d"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-zur03d"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -1090,40 +1092,40 @@ events:
       variable: "HAVE_DXGI1_6_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-8zavd5'
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-zur03d'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fe505.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dfad9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:31 PM.
+        Build started 13/02/2025 10:21:47 PM.
         
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8zavd5\\cmTC_fe505.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zur03d\\cmTC_dfad9.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_fe505.dir\\Debug\\".
+          Creating directory "cmTC_dfad9.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8zavd5\\Debug\\".
-          Creating directory "cmTC_fe505.dir\\Debug\\cmTC_fe505.tlog\\".
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zur03d\\Debug\\".
+          Creating directory "cmTC_dfad9.dir\\Debug\\cmTC_dfad9.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_fe505.dir\\Debug\\cmTC_fe505.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_fe505.dir\\Debug\\cmTC_fe505.tlog\\unsuccessfulbuild".
+          Creating "cmTC_dfad9.dir\\Debug\\cmTC_dfad9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_dfad9.dir\\Debug\\cmTC_dfad9.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe505.dir\\Debug\\\\" /Fd"cmTC_fe505.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8zavd5\\CheckIncludeFile.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dfad9.dir\\Debug\\\\" /Fd"cmTC_dfad9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zur03d\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe505.dir\\Debug\\\\" /Fd"cmTC_fe505.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8zavd5\\CheckIncludeFile.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dfad9.dir\\Debug\\\\" /Fd"cmTC_dfad9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zur03d\\CheckIncludeFile.c"
           CheckIncludeFile.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8zavd5\\Debug\\cmTC_fe505.exe" /INCREMENTAL /ILK:"cmTC_fe505.dir\\Debug\\cmTC_fe505.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-8zavd5/Debug/cmTC_fe505.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-8zavd5/Debug/cmTC_fe505.lib" /MACHINE:X64  /machine:x64 cmTC_fe505.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_fe505.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8zavd5\\Debug\\cmTC_fe505.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zur03d\\Debug\\cmTC_dfad9.exe" /INCREMENTAL /ILK:"cmTC_dfad9.dir\\Debug\\cmTC_dfad9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-zur03d/Debug/cmTC_dfad9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-zur03d/Debug/cmTC_dfad9.lib" /MACHINE:X64  /machine:x64 cmTC_dfad9.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_dfad9.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zur03d\\Debug\\cmTC_dfad9.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_fe505.dir\\Debug\\cmTC_fe505.tlog\\unsuccessfulbuild".
-          Touching "cmTC_fe505.dir\\Debug\\cmTC_fe505.tlog\\cmTC_fe505.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8zavd5\\cmTC_fe505.vcxproj" (default targets).
+          Deleting file "cmTC_dfad9.dir\\Debug\\cmTC_dfad9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_dfad9.dir\\Debug\\cmTC_dfad9.tlog\\cmTC_dfad9.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zur03d\\cmTC_dfad9.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.67
+        Time Elapsed 00:00:00.62
         
       exitCode: 0
   -
@@ -1135,8 +1137,8 @@ events:
     checks:
       - "Performing Test HAVE_MFAPI_H"
     directories:
-      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-33tao6"
-      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-33tao6"
+      source: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-y5b09q"
+      binary: "C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-y5b09q"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -1146,40 +1148,40 @@ events:
       variable: "HAVE_MFAPI_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-33tao6'
+        Change Dir: 'C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-y5b09q'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_327a5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_664cb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 13/02/2025 7:17:32 PM.
+        Build started 13/02/2025 10:21:48 PM.
         
-        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33tao6\\cmTC_327a5.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5b09q\\cmTC_664cb.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_327a5.dir\\Debug\\".
+          Creating directory "cmTC_664cb.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33tao6\\Debug\\".
-          Creating directory "cmTC_327a5.dir\\Debug\\cmTC_327a5.tlog\\".
+          Creating directory "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5b09q\\Debug\\".
+          Creating directory "cmTC_664cb.dir\\Debug\\cmTC_664cb.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_327a5.dir\\Debug\\cmTC_327a5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_327a5.dir\\Debug\\cmTC_327a5.tlog\\unsuccessfulbuild".
+          Creating "cmTC_664cb.dir\\Debug\\cmTC_664cb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_664cb.dir\\Debug\\cmTC_664cb.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_327a5.dir\\Debug\\\\" /Fd"cmTC_327a5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33tao6\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_664cb.dir\\Debug\\\\" /Fd"cmTC_664cb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5b09q\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_327a5.dir\\Debug\\\\" /Fd"cmTC_327a5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33tao6\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_664cb.dir\\Debug\\\\" /Fd"cmTC_664cb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5b09q\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33tao6\\Debug\\cmTC_327a5.exe" /INCREMENTAL /ILK:"cmTC_327a5.dir\\Debug\\cmTC_327a5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-33tao6/Debug/cmTC_327a5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-33tao6/Debug/cmTC_327a5.lib" /MACHINE:X64  /machine:x64 cmTC_327a5.dir\\Debug\\src.obj
-          cmTC_327a5.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33tao6\\Debug\\cmTC_327a5.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5b09q\\Debug\\cmTC_664cb.exe" /INCREMENTAL /ILK:"cmTC_664cb.dir\\Debug\\cmTC_664cb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-y5b09q/Debug/cmTC_664cb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ryanc/Documents/GitHub/Hello-Triangle/build/CMakeFiles/CMakeScratch/TryCompile-y5b09q/Debug/cmTC_664cb.lib" /MACHINE:X64  /machine:x64 cmTC_664cb.dir\\Debug\\src.obj
+          cmTC_664cb.vcxproj -> C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5b09q\\Debug\\cmTC_664cb.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_327a5.dir\\Debug\\cmTC_327a5.tlog\\unsuccessfulbuild".
-          Touching "cmTC_327a5.dir\\Debug\\cmTC_327a5.tlog\\cmTC_327a5.lastbuildstate".
-        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33tao6\\cmTC_327a5.vcxproj" (default targets).
+          Deleting file "cmTC_664cb.dir\\Debug\\cmTC_664cb.tlog\\unsuccessfulbuild".
+          Touching "cmTC_664cb.dir\\Debug\\cmTC_664cb.tlog\\cmTC_664cb.lastbuildstate".
+        Done Building Project "C:\\Users\\ryanc\\Documents\\GitHub\\Hello-Triangle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5b09q\\cmTC_664cb.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.64
+        Time Elapsed 00:00:00.65
         
       exitCode: 0
 ...
